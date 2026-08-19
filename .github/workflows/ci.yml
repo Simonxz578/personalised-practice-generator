@@ -8,7 +8,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
-      - run: pip install skills-ref
+      - run: pip install 'skills-ref @ git+https://github.com/agentskills/agentskills.git#subdirectory=skills-ref'
       - run: skills-ref validate .
       - run: pytest -q
       - run: python scripts/validate_pack.py examples/generated-paper-example.json
