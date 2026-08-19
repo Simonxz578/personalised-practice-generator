@@ -9,7 +9,7 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
       - run: pip install 'skills-ref @ git+https://github.com/agentskills/agentskills.git#subdirectory=skills-ref'
-      - run: skills-ref validate .
+      - run: skills-ref validate "$GITHUB_WORKSPACE"
       - run: pytest -q
       - run: python scripts/validate_pack.py examples/generated-paper-example.json
       - run: python scripts/render_pdfs.py examples/generated-paper-example.json --output-dir /tmp/math-sample
