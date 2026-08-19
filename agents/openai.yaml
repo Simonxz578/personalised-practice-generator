@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personalised Practice Generator"
+  short_description: "Turn lesson feedback into verified practice PDFs"
+  default_prompt: "Use the teacher's standard post-lesson feedback to create personalised questions, worked answers, and the three validated PDFs."

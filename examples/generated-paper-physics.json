@@ -1,0 +1,14 @@
+{
+  "metadata":{"subject":"Physics","qualification":"Pearson Edexcel International GCSE 4PH1","exam_board":"Pearson Edexcel","level":"","topic":"Forces and Motion","title":"Personalised Practice: Resultant Forces","time_allowed_minutes":20,"total_marks":11,"original_material_disclaimer":true},
+  "questions":[
+    {"number":1,"stem":"A trolley is pulled forwards with a force of 18 N. Friction is 6 N backwards.","parts":[{"label":"a","text":"Calculate the resultant force.","marks":2},{"label":"b","text":"State its direction.","marks":1}],"marks":3,"working_space":"small","diagram":null,"skills_tested":["resultant force","direction"],"verification_data":{"kind":"resultant_force","forward":18,"backward":6,"expected":12}},
+    {"number":2,"stem":"A 900 kg car has a driving force of 2400 N and a resistive force of 600 N.","parts":[{"label":"a","text":"Calculate the resultant force.","marks":2},{"label":"b","text":"Calculate the acceleration of the car.","marks":3}],"marks":5,"working_space":"large","diagram":null,"skills_tested":["resultant force","F = ma"],"verification_data":{"kind":"fma","force":1800,"mass":900,"expected":2}},
+    {"number":3,"stem":"A parachutist is falling at terminal velocity. Explain what this means in terms of the forces and motion.","parts":[],"marks":3,"working_space":"medium","diagram":null,"skills_tested":["terminal velocity","balanced forces"],"verification_data":{} }
+  ],
+  "answers":[
+    {"question_number":1,"final_answer":"12 N forwards","working":["Resultant force = 18 - 6 = 12 N."],"mark_scheme":["subtracts opposing force","12 N","forwards"],"acceptable_alternatives":[]},
+    {"question_number":2,"final_answer":"(a) 1800 N forwards  (b) 2.0 m/s²","working":["Resultant force = 2400 - 600 = 1800 N.","a = F/m = 1800/900 = 2.0 m/s²."],"mark_scheme":["subtracts forces","resultant","selects F = ma","substitution","answer with unit"],"acceptable_alternatives":["2 m/s²"]},
+    {"question_number":3,"final_answer":"Weight equals air resistance, so the resultant force and acceleration are zero; the parachutist continues at constant velocity.","working":[],"mark_scheme":["forces balanced","zero acceleration","constant velocity"],"acceptable_alternatives":[]}
+  ],
+  "verification":{"status":"passed","checks":["schema","marks","resultant force","F = ma","rubric"]}
+}

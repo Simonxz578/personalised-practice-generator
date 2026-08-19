@@ -1,0 +1,14 @@
+{
+  "metadata": {"subject":"International Mathematics","qualification":"Cambridge IGCSE 0607","exam_board":"Cambridge International","level":"Extended","topic":"Coordinate Geometry","title":"Personalised Practice: Coordinate Geometry","time_allowed_minutes":25,"total_marks":12,"original_material_disclaimer":true},
+  "questions": [
+    {"number":1,"stem":"Points A(-3, 5) and B(7, -1) lie on a straight line.","parts":[{"label":"a","text":"Find the gradient of AB.","marks":2},{"label":"b","text":"Find the midpoint of AB.","marks":1}],"marks":3,"working_space":"medium","diagram":null,"skills_tested":["gradient with negative coordinates","midpoint retrieval"],"verification_data":{"kind":"gradient","x1":-3,"y1":5,"x2":7,"y2":-1,"expected":"-3/5"}},
+    {"number":2,"stem":"A line passes through P(-2, 7) and Q(4, -5). Find its equation in the form y = mx + c.","parts":[],"marks":4,"working_space":"large","diagram":null,"skills_tested":["gradient","line equation"],"verification_data":{"kind":"line","m":-2,"c":3,"x":-2,"y":7}},
+    {"number":3,"stem":"The line L has equation y = 2x - 1. A line M is perpendicular to L and passes through (6, 4). Find the equation of M.","parts":[],"marks":5,"working_space":"large","diagram":null,"skills_tested":["negative reciprocal","perpendicular line"],"verification_data":{"kind":"line","m":"-1/2","c":7,"x":6,"y":4}}
+  ],
+  "answers": [
+    {"question_number":1,"final_answer":"(a) -3/5  (b) (2, 2)","working":["Gradient = (-1 - 5) / (7 - (-3)) = -6/10 = -3/5.","Midpoint = ((-3 + 7)/2, (5 + (-1))/2) = (2, 2)."],"mark_scheme":["correct signed differences","correct gradient","correct midpoint"],"acceptable_alternatives":["-0.6 for the gradient"]},
+    {"question_number":2,"final_answer":"y = -2x + 3","working":["m = (-5 - 7)/(4 - (-2)) = -12/6 = -2.","Using P: 7 = -2(-2) + c, so c = 3."],"mark_scheme":["gradient method","m = -2","substitution","equation"],"acceptable_alternatives":[]},
+    {"question_number":3,"final_answer":"y = -1/2 x + 7","working":["Perpendicular gradient = -1/2.","4 = -1/2(6) + c, so c = 7."],"mark_scheme":["negative reciprocal","uses point","finds intercept","forms equation","correct final form"],"acceptable_alternatives":["x + 2y = 14"]}
+  ],
+  "verification":{"status":"passed","checks":["schema","marks","gradient","line substitution"]}
+}

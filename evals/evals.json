@@ -1,0 +1,22 @@
+[
+  {"id":"math-coordinate-signs","language":"zh","course":"0607 Extended","topic":"coordinate geometry","evidence":"midpoint/distance independent; negative-coordinate gradient sign errors; perpendicular unstable"},
+  {"id":"math-percent-repeat","language":"zh","course":"0607 Extended","topic":"percentages","evidence":"adds percentage rates in repeated change"},
+  {"id":"math-algebra-sign","language":"en","course":"0607 Extended","topic":"algebra","evidence":"correct method; repeated sign error"},
+  {"id":"math-quadratic-transform","language":"en","course":"0607 Extended","topic":"quadratics","evidence":"expansion secure; transformation interpretation weak"},
+  {"id":"physics-resultant-first","language":"zh","course":"4PH1","topic":"forces","evidence":"knows F=ma; uses applied rather than resultant force"},
+  {"id":"physics-hooke-units","language":"en","course":"4PH1","topic":"Hooke's law","evidence":"confuses extension and length; cm/m issue"},
+  {"id":"physics-terminal","language":"zh","course":"4PH1","topic":"parachutist","evidence":"thinks terminal velocity means no weight"},
+  {"id":"physics-momentum-sign","language":"en","course":"4PH1","topic":"momentum","evidence":"direction/sign issue"},
+  {"id":"narrow-weakness","language":"zh","course":"0607 Core","topic":"statistics","evidence":"mostly independent; one median-from-table weakness"},
+  {"id":"repeated-prompting","language":"en","course":"4PH1","topic":"motion","evidence":"requires repeated formula and unit prompts"},
+  {"id":"teacher-easier","language":"zh","course":"0607 Extended","topic":"graphs","request":"easier next practice"},
+  {"id":"teacher-normal","language":"en","course":"4PH1","topic":"forces","request":"normal examination difficulty"},
+  {"id":"teacher-stretch","language":"zh","course":"0607 Extended","topic":"coordinate geometry","request":"stretch/integration"},
+  {"id":"system-priority","language":"zh","course":"0607 Extended","topic":"algebra","next_priority":"由系统判断"},
+  {"id":"vague-careless","language":"zh","course":"0607 Extended","topic":"percentages","specific_problem":"粗心","evidence":"concrete prompted/unstable evidence elsewhere"},
+  {"id":"missing-course","edge":true,"expected":"one concise clarification"},
+  {"id":"conflicting-level","edge":true,"expected":"flag conflict; do not silently choose"},
+  {"id":"all-independent","edge":true,"expected":"light retrieval and transfer, no invented weakness"},
+  {"id":"prompted-only","edge":true,"expected":"target prompted skill despite no unstable skill"},
+  {"id":"existing-homework","edge":true,"expected":"preserve assigned work as context"}
+]

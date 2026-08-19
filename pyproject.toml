@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personalised-practice-generator"
+version = "0.2.0"
+description = "Agent Skill and deterministic renderer for personalised practice papers"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = ["jsonschema>=4.21,<5", "reportlab>=4.2,<5", "sympy>=1.12,<2", "pypdf>=5,<7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,17 @@
+【课程】
+Pearson Edexcel International GCSE Physics 4PH1
+【日期 / 时间】
+2026.08.18｜北京时间 11:00–12:00
+【课程内容】
+Topic: Hooke's law
+Skills practised: measure length; calculate extension; convert cm to m; use F = kx
+【课堂表现】
+Independent skills: measure length
+Prompted skills: calculate extension; use F = kx
+Prompt types: units; formula
+Unstable or incomplete: convert cm to m
+【存在问题与建议】
+Specific problems: Uses total spring length as x and substitutes centimetres into a value of k in N/m
+Next priorities: extension; unit conversion; Hooke's law
+【课后作业】
+Create personalised practice from this feedback.

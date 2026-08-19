@@ -1,0 +1,54 @@
+{
+  "course": {
+    "exam_board_or_curriculum": "Cambridge International",
+    "subject": "Mathematics",
+    "syllabus_or_specification_code": "0607",
+    "level_or_tier": "Extended"
+  },
+  "lesson": {
+    "date": "2026.08.19",
+    "time": "14:00–15:00",
+    "topic": "Coordinate Geometry",
+    "skills_taught_or_practised": [
+      "midpoint",
+      "distance",
+      "gradient",
+      "equation of a straight line",
+      "perpendicular lines"
+    ]
+  },
+  "performance": {
+    "independent_skills": [
+      "midpoint",
+      "distance"
+    ],
+    "prompted_skills": [
+      "gradient",
+      "equation of a straight line"
+    ],
+    "prompt_types": [
+      "符号",
+      "步骤"
+    ],
+    "unstable_or_incomplete_skills": [
+      "perpendicular gradient"
+    ]
+  },
+  "diagnosis": {
+    "specific_error_evidence": [
+      "坐标出现负数时，把 7-(-2) 写成 7-2",
+      "求直线方程时需要提醒先求 gradient",
+      "perpendicular line 需要提示 negative reciprocal"
+    ],
+    "error_patterns": [],
+    "unknown_causes": []
+  },
+  "teacher_priorities": [
+    "negative-coordinate gradient",
+    "equation of a straight line",
+    "perpendicular line"
+  ],
+  "existing_homework": "根据本次课后反馈自动生成个性化练习。",
+  "internal_micro_skill_state": [],
+  "assumptions": []
+}

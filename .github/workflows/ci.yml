@@ -1,0 +1,18 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - run: pip install skills-ref
+      - run: skills-ref validate .
+      - run: pytest -q
+      - run: python scripts/validate_pack.py examples/generated-paper-example.json
+      - run: python scripts/render_pdfs.py examples/generated-paper-example.json --output-dir /tmp/math-sample
+      - run: python scripts/render_pdfs.py examples/generated-paper-physics.json --output-dir /tmp/physics-sample
+      - run: python scripts/inspect_pdf.py /tmp/math-sample/Questions.pdf /tmp/math-sample/Answers.pdf /tmp/math-sample/Combined.pdf
+      - run: python scripts/export_portable_prompt.py --subject cie-0607-mathematics --output /tmp/cie0607-portable-prompt.md

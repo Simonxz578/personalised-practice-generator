@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "type": "object",
+  "required": ["student_target_summary", "teacher_priority_summary", "question_count", "estimated_minutes", "total_marks", "difficulty_profile", "questions"],
+  "properties": {
+    "student_target_summary": {"type": "string"}, "teacher_priority_summary": {"type": "array", "items": {"type": "string"}},
+    "question_count": {"type": "integer", "minimum": 1}, "estimated_minutes": {"type": "integer", "minimum": 1}, "total_marks": {"type": "integer", "minimum": 1}, "difficulty_profile": {"type": "string"},
+    "questions": {"type": "array", "items": {"type": "object", "required": ["question_number", "primary_skill", "supporting_skills", "evidence_addressed", "purpose", "difficulty", "marks", "expected_answer_type", "verification_method"], "properties": {
+      "question_number": {"type": "integer", "minimum": 1}, "primary_skill": {"type": "string"}, "supporting_skills": {"type": "array", "items": {"type": "string"}}, "evidence_addressed": {"type": "string"}, "purpose": {"enum": ["retrieval", "consolidation", "diagnosis", "transfer", "integration"]}, "difficulty": {"type": "integer", "minimum": 1, "maximum": 5}, "marks": {"type": "integer", "minimum": 1}, "expected_answer_type": {"type": "string"}, "verification_method": {"type": "string"}}, "additionalProperties": false}}
+  }, "additionalProperties": false
+}

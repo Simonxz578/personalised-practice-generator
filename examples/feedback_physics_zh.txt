@@ -1,0 +1,17 @@
+【课程】
+Pearson Edexcel International GCSE Physics 4PH1
+【日期 / 时间】
+2026.08.19｜北京时间 16:00–17:00
+【课程内容】
+Topic：Forces and Motion
+本节练习/学习：force diagrams；resultant force；F = ma；terminal velocity
+【课堂表现】
+独立完成哪些技能：identify force directions
+提示后完成哪些技能：use F = ma
+提示类型：步骤；公式
+尚不稳定/未完成：calculate resultant force before acceleration；terminal velocity explanation
+【存在问题与建议】
+具体问题：把发动机推力直接代入 F = ma，没有先减去阻力；认为终端速度时没有重力
+下一步重点：1. resultant force；2. F = ma；3. terminal velocity
+【课后作业】
+完成已有课本第 8 题，并生成针对性练习。

@@ -1,0 +1,17 @@
+【课程】
+Cambridge IGCSE International Mathematics 0607 Extended
+【日期 / 时间】
+2026.08.18｜北京时间 10:00–11:00
+【课程内容】
+Topic: Percentages
+Skills practised: percentage increase; percentage decrease; repeated change; reverse percentage
+【课堂表现】
+Independent skills: percentage increase; percentage decrease
+Prompted skills: repeated percentage change
+Prompt types: steps
+Unstable or incomplete: reverse percentage
+【存在问题与建议】
+Specific problems: Adds the two percentage rates instead of applying multipliers successively
+Next priorities: repeated percentage change; reverse percentage
+【课后作业】
+Create personalised practice from this feedback.

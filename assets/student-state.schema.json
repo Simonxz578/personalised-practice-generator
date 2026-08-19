@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["course", "lesson", "performance", "diagnosis", "teacher_priorities", "existing_homework", "internal_micro_skill_state", "assumptions"],
+  "properties": {
+    "course": {"type": "object", "required": ["exam_board_or_curriculum", "subject", "syllabus_or_specification_code", "level_or_tier"], "properties": {
+      "exam_board_or_curriculum": {"type": "string"}, "subject": {"type": "string"}, "syllabus_or_specification_code": {"type": "string"}, "level_or_tier": {"type": "string"}}, "additionalProperties": false},
+    "lesson": {"type": "object", "required": ["date", "time", "topic", "skills_taught_or_practised"], "properties": {
+      "date": {"type": "string"}, "time": {"type": "string"}, "topic": {"type": "string"}, "skills_taught_or_practised": {"type": "array", "items": {"type": "string"}}}, "additionalProperties": false},
+    "performance": {"type": "object", "required": ["independent_skills", "prompted_skills", "prompt_types", "unstable_or_incomplete_skills"], "properties": {
+      "independent_skills": {"type": "array", "items": {"type": "string"}}, "prompted_skills": {"type": "array", "items": {"type": "string"}}, "prompt_types": {"type": "array", "items": {"type": "string"}}, "unstable_or_incomplete_skills": {"type": "array", "items": {"type": "string"}}}, "additionalProperties": false},
+    "diagnosis": {"type": "object", "required": ["specific_error_evidence", "error_patterns", "unknown_causes"], "properties": {
+      "specific_error_evidence": {"type": "array", "items": {"type": "string"}}, "error_patterns": {"type": "array", "items": {"type": "string"}}, "unknown_causes": {"type": "array", "items": {"type": "string"}}}, "additionalProperties": false},
+    "teacher_priorities": {"type": "array", "maxItems": 3, "items": {"type": "string"}},
+    "existing_homework": {"type": "string"},
+    "internal_micro_skill_state": {"type": "array", "items": {"type": "object", "required": ["skill", "level", "evidence", "independence", "source"], "properties": {"skill": {"type": "string"}, "level": {"type": "integer", "minimum": 0, "maximum": 4}, "evidence": {"type": "string"}, "independence": {"type": "string"}, "source": {"type": "string"}}, "additionalProperties": false}},
+    "assumptions": {"type": "array", "items": {"type": "string"}}
+  }, "additionalProperties": false
+}

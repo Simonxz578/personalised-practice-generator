@@ -1,0 +1,17 @@
+【课程】
+Cambridge IGCSE International Mathematics 0607 Extended
+【日期 / 时间】
+2026.08.19｜北京时间 14:00–15:00
+【课程内容】
+Topic：Coordinate Geometry
+本节练习/学习：midpoint；distance；gradient；equation of a straight line；perpendicular lines
+【课堂表现】
+独立完成哪些技能：midpoint；distance
+提示后完成哪些技能：gradient；equation of a straight line
+提示类型：符号；步骤
+尚不稳定/未完成：perpendicular gradient
+【存在问题与建议】
+具体问题：坐标出现负数时，把 7-(-2) 写成 7-2；求直线方程时需要提醒先求 gradient；perpendicular line 需要提示 negative reciprocal
+下一步重点：1. negative-coordinate gradient；2. equation of a straight line；3. perpendicular line
+【课后作业】
+根据本次课后反馈自动生成个性化练习。

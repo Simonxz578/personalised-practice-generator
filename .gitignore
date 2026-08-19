@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+dist/*
+!dist/.gitkeep
+output/
+*.student-feedback.txt
+.env
+.DS_Store
