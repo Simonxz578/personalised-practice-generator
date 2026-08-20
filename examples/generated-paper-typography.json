@@ -1,0 +1,14 @@
+{
+  "metadata": {"subject":"International Mathematics","qualification":"Cambridge IGCSE 0607","exam_board":"Cambridge International","level":"Extended","topic":"Mathematical Typography","title":"Typography Regression Practice","time_allowed_minutes":15,"total_marks":8,"original_material_disclaimer":true},
+  "questions": [
+    {"number":1,"stem":"Use Gradient = (y₂ - y₁)/(x₂ - x₁) for points (x₁, y₁) and (x₂, y₂). Evaluate Gradient = (−3 - 7)/(6 - (−4)).","parts":[],"marks":3,"working_space":"medium","diagram":null,"skills_tested":["gradient notation"],"verification_data":{}},
+    {"number":2,"stem":"A speed is measured in m/s² in this typography check. Rewrite 25 cm² and 1200 kg/m³ using words for the powers.","parts":[],"marks":2,"working_space":"small","diagram":null,"skills_tested":["superscript units"],"verification_data":{}},
+    {"number":3,"stem":"The symbols v₁, v₂ and x₁₂ are labels. The relation v² = u² + 2as contains powers; s⁻¹ contains a negative power. Explain what the superscript in x³ means. Treat A < B & B > C as literal comparison text.","parts":[],"marks":3,"working_space":"medium","diagram":null,"skills_tested":["subscripts","superscripts","safe escaping"],"verification_data":{}}
+  ],
+  "answers": [
+    {"question_number":1,"final_answer":"Gradient = -1","working":["Gradient = (y₂ - y₁)/(x₂ - x₁).","Gradient = (−3 - 7)/(6 - (−4)) = -10/10 = -1."],"mark_scheme":["correct signed numerator","correct signed denominator","gradient"],"acceptable_alternatives":[]},
+    {"question_number":2,"final_answer":"25 square centimetres; 1200 kilograms per cubic metre","working":["m/s² means metres per second squared; m/s³ means metres per second cubed.","cm² is square centimetres and m³ is cubic metres."],"mark_scheme":["square unit","cubic unit"],"acceptable_alternatives":[]},
+    {"question_number":3,"final_answer":"Subscripts label quantities; x³ means x multiplied by itself three times.","working":["x₁, x₂, y₁, y₂, v₁, v₂ and x₁₂ use subscripts.","x², x³, v² and s⁻¹ use superscripts.","The literal comparison remains A < B & B > C."],"mark_scheme":["subscript meaning","cube meaning","safe comparison text"],"acceptable_alternatives":[]}
+  ],
+  "verification":{"status":"passed","checks":["schema","marks","typography regression"]}
+}

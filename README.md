@@ -46,3 +46,5 @@ Follow [`references/subject-pack-authoring.md`](references/subject-pack-authorin
 Use aliases; full student names and unrelated personal attributes are unnecessary. Never commit real lesson feedback to a public repository, and generated local outputs are ignored by default. All included questions are original. The project does not redistribute official papers, use board logos, or claim endorsement by Cambridge International or Pearson.
 
 This v0.2 parser handles the canonical Chinese template plus common English field labels; genuinely free-form reports may need model-assisted extraction. Deterministic verification covers declared common maths/physics payloads, while written explanations still need rubric/human review. PDF layout supports normal short sets and intentionally rejects overflow instead of shrinking text excessively.
+
+Renderer v0.2.1 safely normalises Unicode mathematical subscripts and superscripts (for example `x₁`, `m/s²`, and `s⁻¹`) into ReportLab markup after escaping model-generated text.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse, json
+import argparse, html, json, re
 from pathlib import Path
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
@@ -16,7 +16,25 @@ SMALL=ParagraphStyle("small",parent=BODY,fontSize=8,leading=10)
 TITLE=ParagraphStyle("title",parent=BODY,fontName="Helvetica-Bold",fontSize=15,leading=18,textColor=ACCENT,spaceAfter=2)
 Q=ParagraphStyle("q",parent=BODY,fontSize=10,leading=13,spaceAfter=4)
 
-def safe(s): return str(s).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace("\n","<br/>")
+SUBSCRIPT_DIGITS = str.maketrans("₀₁₂₃₄₅₆₇₈₉", "0123456789")
+SUPERSCRIPT_CHARS = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹²³⁻", "012345678923-")
+
+def format_math_text(raw_text):
+    """Escape model text, then activate only renderer-generated math markup."""
+    escaped = html.escape(str(raw_text), quote=True).replace("−", "-")
+    escaped = re.sub(
+        r"[₀₁₂₃₄₅₆₇₈₉]+",
+        lambda match: f"<sub>{match.group(0).translate(SUBSCRIPT_DIGITS)}</sub>",
+        escaped,
+    )
+    escaped = re.sub(
+        r"[⁰¹²³⁴⁵⁶⁷⁸⁹²³⁻]+",
+        lambda match: f"<super>{match.group(0).translate(SUPERSCRIPT_CHARS)}</super>",
+        escaped,
+    )
+    return escaped.replace("\n", "<br/>")
+
+safe = format_math_text
 def diagram_flowable(spec):
     if not spec: return None
     kind=spec.get("type",""); d=Drawing(155*mm,38*mm)

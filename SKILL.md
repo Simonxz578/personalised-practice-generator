@@ -3,7 +3,7 @@ name: personalised-practice-generator
 description: Use this skill when a teacher provides post-lesson feedback and wants personalised, syllabus-aware practice questions, worked answers and exam-style PDFs based on what the student could complete independently, what required prompting, what remains unstable, and the teacher's stated next priorities. Supports structured Chinese or English lesson feedback and subject-specific packs. Do not reproduce copyrighted official past-paper questions.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Personalised Practice Generator
